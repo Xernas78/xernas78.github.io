@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>xernas.dev</title>
+</head>
+<body>
+    <div id="app">
+        <div class="bento" id="portfolio">
+            <span id="main-title" class="content selectable">Portfolio</span>
+            <div id="terminal" class="content">
+                <div>
+                    <span class="terminalText selectable">Welcome to the terminal !</span>
+                    <label class="terminalText">
+                        > <input type="text" id="terminalInput">
+                    </label>
+                </div>
+            </div>
+            <div id="terminalEnabler" onclick="enableTerminal()" class="hoverable content">
+                <img src="assets/terminal.svg" alt="Terminal"/>
+            </div>
+        </div>
+        <div class="bento" id="presentation">
+            <div id="me" class="content">
+                <div>
+                    <span class="big selectable">Xernas</span>
+                    <span class="subtitle selectable">Développeur logiciel</span>
+                </div>
+                <span class="description selectable">Je suis Xernas (16), J'ai toujours été intéressé par le developpement en général, J'ai d'abord commencé avec Minecraft en me demandant comment ça marchait et j'aimais beaucoup.
+                    <br> Par la suite j'ai été intéressé par les plugins Minecraft, ils ne demandaient pas la modification du client et j'aimais cette simplicité.
+                    <br> Grace aux plugins j'ai acquis beaucoup d'expériences en Java et j'ai commencé à m'intéresser à d'autres types de projets comme des logiciels mais aussi à d'autres langages comme ceux du web !
+                    <br> Maintenant je suis un développeur logiciel polyvalent, je suis capable de développer des applications web, des plugins Minecraft et biens d'autres.
+                    <br> N'hésitez pas à me contacter afin de parler de vos projets ou de vos idées !
+                </span>
+            </div>
+            <div id="tools" class="content">
+                <span class="medium selectable">Langages et outils</span>
+                <div class="list">
+                    <div class="tool">
+                        <img src="assets/tools/java.png" alt="Java"/>
+                        <span class="label selectable">Java</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/git.png" alt="Git"/>
+                        <span class="label selectable">Git</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/html.png" alt="HTML"/>
+                        <span class="label selectable">HTML</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/css.png" alt="CSS">
+                        <span class="label selectable">CSS</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/js.png" alt="JavaScript"/>
+                        <span class="label selectable">JS</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/ts.png" alt="TypeScript"/>
+                        <span class="label selectable">TS</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/react.png" alt="React"/>
+                        <span class="label selectable">React</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/mariadb.png" alt="MariaDB">
+                        <span class="label selectable">MariaDB</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/spring.png" alt="Spring"/>
+                        <span class="label selectable">Spring</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/c.png" alt="C">
+                        <span class="label selectable">C</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/csharp.png" alt="C#"/>
+                        <span class="label selectable">C#</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/dotnet.png" alt="DotNet">
+                        <span class="label selectable">.NET</span>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/tools/python.png" alt="Python">
+                        <span class="label selectable">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bento" id="projects">
+            <span class="big selectable content">Projets</span>
+            <div class="details">
+                <span class="number">3</span>
+                <span class="description"><a href="https://github.com/Xernas78?tab=repositories" target="_blank" class="link hoverable">-> Découvrez les tous</a></span>
+            </div>
+
+        </div>
+        <div class="bento" id="contact">
+            <div class="content contacts">
+                <span class="big selectable">Contact</span>
+                <ul id="socials">
+                    <li><a href="https://github.com/Xernas78" target="_blank" class="hoverable"><img src="assets/socials/github.png" alt="Github"></a></li>
+                    <li><a href="https://discord.gg/fpg2mUcBrM" target="_blank" class="hoverable"><img src="assets/socials/discord.png" alt="Discord"></a></li>
+                </ul>
+            </div>
+            <div class="content details">
+                <span class="intro selectable">Pour me contacter il vous suffit de rejoindre mon serveur discord,
+                    pour le moment tout se passe là bas alors n'hésitez pas à le rejoindre !
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id="test"></div>
+    <div id="cursor"></div>
+
+    <script src="js/terminal.js" language="JavaScript"></script>
+    <script src="js/torch.js" language="JavaScript"></script>
+</body>
+</html>
