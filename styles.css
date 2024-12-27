@@ -262,6 +262,7 @@ a {
 .tool img {
     width: 32px;
     height: 32px;
+    pointer-events: none;
 }
 
 #socials {
@@ -274,6 +275,7 @@ a {
 #socials li a img {
     width: 32px;
     height: 32px;
+    pointer-events: none;
 }
 
 #contact {
