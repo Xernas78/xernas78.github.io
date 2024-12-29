@@ -67,7 +67,7 @@ a {
     width: var(--cursor-size);
     height: var(--cursor-size);
     border-radius: 50%;
-    border: var(--border-size) solid var(--cursor-color);
+    border: calc(var(--border-size) / 2) solid var(--cursor-color);
     top: 0;
     left: 0;
     visibility: hidden;
@@ -79,8 +79,8 @@ a {
 
 #pointer {
     position: absolute;
-    width: calc(var(--cursor-size) / 5);
-    height: calc(var(--cursor-size) / 5);
+    width: calc(var(--cursor-size) / 8);
+    height: calc(var(--cursor-size) / 8);
     top: 0;
     left: 0;
     visibility: hidden;
